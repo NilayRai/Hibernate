@@ -28,6 +28,7 @@ public class Employee {
 
 	@Override
 	public String toString() {
+		System.out.println("Hello Java");
 		return "Employee [empId=" + empId + ", employeeName=" + employeeName + ", employer=" + employer + "]";
 	}
 
@@ -57,6 +58,7 @@ public class Employee {
 	}
 
 	public void setEmployer(Employer employer) {
+		System.out.println("Hello India");
 		this.employer = employer;
 	}
 
