@@ -15,7 +15,7 @@ public class Address {
 	private String name;
 
 	public Address(String name) {
-		System.out.println("Hello Java");
+		System.out.println("Hello Beauty");
 		super();
 		this.name = name;
 	}
