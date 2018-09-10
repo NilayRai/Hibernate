@@ -15,7 +15,7 @@ public class Address {
 	private String name;
 
 	public Address(String name) {
-		System.out.println("Hello Beauty");
+		
 		super();
 		this.name = name;
 	}
@@ -34,7 +34,6 @@ public class Address {
 	}
 
 	public void setaId(int aId) {
-			System.out.println("Hello Nilay");
 		this.aId = aId;
 	}
 
