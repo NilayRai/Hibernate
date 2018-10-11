@@ -1,7 +1,6 @@
 package com.basic.mapping;
 
 import javax.persistence.Entity;
-import javax.persistence.Table;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -16,8 +15,9 @@ public class Address {
 	private String name;
 
 	public Address(String name) {
-		
+
 		super();
+		System.out.println("hgggggggggggggggggggggggggggggggggggggggggggggg");
 		this.name = name;
 	}
 
