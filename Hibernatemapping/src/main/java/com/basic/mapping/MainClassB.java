@@ -14,7 +14,7 @@ public class MainClassB {
 		System.out.println(add1);
 		Address add2 = new Address();
 		add2.setaId(2);
-		add2.setName("Mahi");
+		add2.setName("NilayBeauty");
 		session.update(add2);
 	
 		tx.commit();

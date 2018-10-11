@@ -10,7 +10,7 @@ public class MainClassA {
 		SessionFactory sf = HibernateUtil.getsessionfactory();
 		Session session = sf.openSession();
 		tx = session.beginTransaction();
-		Address adr = new Address("Nilay");
+		Address adr = new Address("Beauty");
 
 		session.save(adr);
 		tx.commit();
